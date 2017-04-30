@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1352</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="combo0_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADD.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUB.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MULT.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DIV.D</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo0_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo0_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>10</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo0_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo1_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADD.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUB.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MULT.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DIV.D</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo1_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo1_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo1_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>50</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo2_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADD.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUB.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MULT.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DIV.D</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo2_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo2_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>90</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo2_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>90</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo3_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADD.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUB.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MULT.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DIV.D</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo3_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo3_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>130</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo3_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>130</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo4_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADD.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUB.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MULT.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DIV.D</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo4_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo4_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo4_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>170</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo5_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NOP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ADD.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SUB.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MULT.D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DIV.D</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo5_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>210</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo5_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>210</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo5_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>210</y>
+      <width>79</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>执行时间设置</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>10</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>50</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>乘法</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>加/减</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>50</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>除法</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time_load">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time_add_sub">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>10</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time_mult">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="time_div">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>100</y>
+      <width>83</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>执行</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exec">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>100</y>
+      <width>83</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>步进</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>100</y>
+      <width>83</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>后退</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reset">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>150</y>
+      <width>83</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重设</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exec_5">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>150</y>
+      <width>83</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>步进5步</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_5">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>150</y>
+      <width>83</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>后退5步</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="load_part">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>350</width>
+      <height>116</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Load1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Load2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Load3</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Busy</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>地址</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>值</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="reservation">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>747</width>
+      <height>176</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Add1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Add2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Add3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Mult1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Mult2</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Busy</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Op</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vj</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vk</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Qj</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Qk</string>
+     </property>
+    </column>
+    <item row="0" column="1">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>no</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="cur_cycle">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>200</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>200</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>当前周期</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="instr_state">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>405</width>
+      <height>206</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>指令</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>流出</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>执行</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>写回</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="register_0">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>75</y>
+      <width>422</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Qi</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>值</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>F0</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F6</string>
+     </property>
+    </column>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="register_1">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>210</y>
+      <width>422</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Qi</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>值</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>F8</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F10</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F12</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F14</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="register_2">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>350</y>
+      <width>422</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Qi</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>值</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>F16</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F18</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F20</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F22</string>
+     </property>
+    </column>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="register_3">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>490</y>
+      <width>422</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Qi</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>值</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>F24</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F26</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F28</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>F30</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1352</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
